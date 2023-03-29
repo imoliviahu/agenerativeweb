@@ -105,6 +105,7 @@ html {
   
    .screenshots {
        width: 100vw;
+       height: 210vh;
         display: grid;
         /* grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(25, 1fr); */
@@ -119,16 +120,17 @@ html {
         width: 100vw;
     }
 
-    #question {
-        position: absolute;
-        font-size: 30px;
+span#question {
+        position: relative;
+        font-size: 20px;
         font-family: 'CHANEY Ultra Extended';
-        padding: 400px;
+        left: 18%;
+        top: 50%;
         color: white;
     }
 
     #answer {
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Cormorant Garamond', serif;
         background: black;
         color: white;
@@ -139,8 +141,8 @@ html {
 
     form {
         position: relative;
-        padding-top: 30%;
-        padding-left: 35%;
+        padding-top: 35%;
+        padding-left: 38%;
         padding-right: 20%;
     }
 
@@ -152,8 +154,19 @@ html {
         left: 15px;
         padding: 20px;
         border-radius: 10px;
+        cursor: pointer;
 
     }
+
+    a {
+        position: absolute;
+        font-size: 20px;
+        padding-left: 40%;
+        font-family: 'CHANEY Ultra Extended';
+        text-decoration: none;
+        color: white;
+    }
+
 
 
 
