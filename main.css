@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
+
+html {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "CHANEY Ultra Extended";
+    src: local("CHANEY-Ultra Extended"),
+    url("CHANEY-UltraExtended.otf") format("opentype") 
+  }
+
+#credits {
+    position: fixed;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-left: 90%;
+    color: white;
+}
+
+#about {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.container{
+    white-space: nowrap;
+    font-size: 180px;
+    font-family: 'CHANEY Ultra Extended';
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+  }
+
+  p#name1 {
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    width: 200%;
+     
+    animation: scroll-slowr 10s linear infinite;
+    -moz-animation: scroll-slowr 10s linear infinite;
+    -webkit-animation: scroll-slowr 10s linear infinite;
+     
+    transform:translateX(100%);
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+   }
+     
+   @keyframes scroll-slowr {
+    0%   { 
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(-50%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(0%); 
+    }
+   }
+  
+  p#name0, p#name2 {
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    width: 200%;
+     
+    animation: scroll-slowl 20s linear infinite;
+    -moz-animation: scroll-slowl 20s linear infinite;
+    -webkit-animation: scroll-slowl 20s linear infinite;
+     
+    transform:translateX(100%);
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+   }
+     
+   @keyframes scroll-slowl {
+    0%   { 
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(0%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-50%); 
+    }
+   }
+
+   img {
+        z-index: 0;
+        width: 100%;
+   }
+
+   img:hover {
+        transform: scale(2.0);
+        transition-duration: 0.2s;
+   }
+  
+   .screenshots {
+       width: 100vw;
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(25, 1fr); */
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    .container2{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #question {
+        position: absolute;
+        font-size: 30px;
+        font-family: 'CHANEY Ultra Extended';
+        padding: 400px;
+        color: white;
+    }
+
+    #answer {
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif;
+        background: black;
+        color: white;
+        border-color: white;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    form {
+        position: relative;
+        padding-top: 30%;
+        padding-left: 35%;
+        padding-right: 20%;
+    }
+
+    #submit {
+        position: relative;
+        background: white;
+        font-size: 20px;
+        font-family: 'CHANEY Ultra Extended';
+        left: 15px;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+
+
+
+
+   
