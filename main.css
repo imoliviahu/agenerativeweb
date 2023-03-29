@@ -35,16 +35,16 @@ html {
     color: white;
   }
 
-  p#name1 {
+  p#name0, p#name2 {
     padding-top: 3%;
     position: relative;
     text-align: center;
     margin: 0;
-    width: 200%;
+    width: 100%;
      
-    animation: scroll-slowr 10s linear infinite;
-    -moz-animation: scroll-slowr 10s linear infinite;
-    -webkit-animation: scroll-slowr 10s linear infinite;
+    animation: scroll-slowr 15s linear infinite;
+    -moz-animation: scroll-slowr 15s linear infinite;
+    -webkit-animation: scroll-slowr 15s linear infinite;
      
     transform:translateX(100%);
     -moz-transform:translateX(100%);
@@ -64,16 +64,16 @@ html {
     }
    }
   
-  p#name0, p#name2 {
+  p#name1 {
     padding-top: 3%;
     position: relative;
     text-align: center;
     margin: 0;
-    width: 200%;
+    width: 410%;
      
-    animation: scroll-slowl 20s linear infinite;
-    -moz-animation: scroll-slowl 20s linear infinite;
-    -webkit-animation: scroll-slowl 20s linear infinite;
+    animation: scroll-slowl 12s linear infinite;
+    -moz-animation: scroll-slowl 12s linear infinite;
+    -webkit-animation: scroll-slowl 12s linear infinite;
      
     transform:translateX(100%);
     -moz-transform:translateX(100%);
@@ -104,11 +104,9 @@ html {
    }
   
    .screenshots {
-       width: 100vw;
-       height: 210vh;
+        width: 100vw;
+        height: 210vh;
         display: grid;
-        /* grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(25, 1fr); */
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(11, 1fr);
         grid-column-gap: 5px;
@@ -116,11 +114,11 @@ html {
     }
 
     .container2{
-        height: 100vh;
+        height: 110vh;
         width: 100vw;
     }
 
-span#question {
+    span#question {
         position: relative;
         font-size: 20px;
         font-family: 'CHANEY Ultra Extended';
@@ -158,15 +156,15 @@ span#question {
 
     }
 
-    a {
+    #title {
         position: absolute;
         font-size: 20px;
+        padding-top: 40px;
         padding-left: 40%;
         font-family: 'CHANEY Ultra Extended';
         text-decoration: none;
         color: white;
     }
-
 
 
 
